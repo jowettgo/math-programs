@@ -21,7 +21,7 @@ function get_all_prime($x, $limit) {
   echo "\nThe sum of all primes under $limit is $sum_of_all_primes";
  }
   
-  get_all_prime(1000000);
+  get_all_prime(0, 1000000);
 
 
 
